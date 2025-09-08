@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-
+using ClosedXML.Excel;
 
 namespace Quanlybanhangluuniem
 {
@@ -168,6 +168,55 @@ namespace Quanlybanhangluuniem
             else
             {
                 F_NhanVien_Load(sender, e);
+            }
+        }
+
+        private void btn_excel_Click(object sender, EventArgs e)
+        {
+            if (dvg_nhanvien.Rows.Count > 0)
+            {
+                using (SaveFileDialog sfd = new SaveFileDialog() { Filter = "Excel Workbook|*.xlsx" })
+                {
+                    if (sfd.ShowDialog() == DialogResult.OK)
+                    {
+                        try
+                        {
+                            using (XLWorkbook wb = new XLWorkbook())
+                            {
+                                // Tạo 1 sheet
+                                var ws = wb.Worksheets.Add("NhanVien");
+
+                                // Ghi header
+                                for (int i = 0; i < dvg_nhanvien.Columns.Count; i++)
+                                {
+                                    ws.Cell(1, i + 1).Value = dvg_nhanvien.Columns[i].HeaderText;
+                                }
+
+                                // Ghi dữ liệu
+                                for (int i = 0; i < dvg_nhanvien.Rows.Count; i++)
+                                {
+                                    for (int j = 0; j < dvg_nhanvien.Columns.Count; j++)
+                                    {
+                                        ws.Cell(i + 2, j + 1).Value = dvg_nhanvien.Rows[i].Cells[j].Value?.ToString();
+                                    }
+                                }
+
+                                // Lưu file
+                                wb.SaveAs(sfd.FileName);
+                            }
+
+                            MessageBox.Show("Xuất Excel thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show("Lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Không có dữ liệu để xuất!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
     }

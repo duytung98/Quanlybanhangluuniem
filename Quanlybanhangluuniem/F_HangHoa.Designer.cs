@@ -84,7 +84,7 @@ namespace Quanlybanhangluuniem
             this.dvg_sp.DefaultCellStyle = dataGridViewCellStyle2;
             this.dvg_sp.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dvg_sp.Location = new System.Drawing.Point(0, 453);
-            this.dvg_sp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dvg_sp.Margin = new System.Windows.Forms.Padding(4);
             this.dvg_sp.Name = "dvg_sp";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
@@ -105,7 +105,7 @@ namespace Quanlybanhangluuniem
             this.btn_xoa.BackColor = System.Drawing.Color.Silver;
             this.btn_xoa.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_xoa.Location = new System.Drawing.Point(653, 18);
-            this.btn_xoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_xoa.Margin = new System.Windows.Forms.Padding(4);
             this.btn_xoa.Name = "btn_xoa";
             this.btn_xoa.Size = new System.Drawing.Size(119, 47);
             this.btn_xoa.TabIndex = 6;
@@ -130,7 +130,7 @@ namespace Quanlybanhangluuniem
             this.btn_Dong.BackColor = System.Drawing.Color.Silver;
             this.btn_Dong.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Dong.Location = new System.Drawing.Point(911, 18);
-            this.btn_Dong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Dong.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Dong.Name = "btn_Dong";
             this.btn_Dong.Size = new System.Drawing.Size(148, 47);
             this.btn_Dong.TabIndex = 7;
@@ -141,7 +141,7 @@ namespace Quanlybanhangluuniem
             // 
             this.txt_dongia.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_dongia.Location = new System.Drawing.Point(732, 97);
-            this.txt_dongia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_dongia.Margin = new System.Windows.Forms.Padding(4);
             this.txt_dongia.Name = "txt_dongia";
             this.txt_dongia.Size = new System.Drawing.Size(251, 34);
             this.txt_dongia.TabIndex = 21;
@@ -154,7 +154,7 @@ namespace Quanlybanhangluuniem
             this.btn_Search.ForeColor = System.Drawing.Color.Black;
             this.btn_Search.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_Search.Location = new System.Drawing.Point(1371, 162);
-            this.btn_Search.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Search.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Search.Name = "btn_Search";
             this.btn_Search.Size = new System.Drawing.Size(139, 37);
             this.btn_Search.TabIndex = 15;
@@ -166,7 +166,7 @@ namespace Quanlybanhangluuniem
             this.txt_timkiem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_timkiem.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_timkiem.Location = new System.Drawing.Point(1108, 162);
-            this.txt_timkiem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_timkiem.Margin = new System.Windows.Forms.Padding(4);
             this.txt_timkiem.Name = "txt_timkiem";
             this.txt_timkiem.Size = new System.Drawing.Size(253, 34);
             this.txt_timkiem.TabIndex = 14;
@@ -175,7 +175,7 @@ namespace Quanlybanhangluuniem
             // 
             this.txt_soluong.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_soluong.Location = new System.Drawing.Point(732, 46);
-            this.txt_soluong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_soluong.Margin = new System.Windows.Forms.Padding(4);
             this.txt_soluong.Name = "txt_soluong";
             this.txt_soluong.Size = new System.Drawing.Size(251, 34);
             this.txt_soluong.TabIndex = 11;
@@ -184,7 +184,7 @@ namespace Quanlybanhangluuniem
             // 
             this.txt_ghichu.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_ghichu.Location = new System.Drawing.Point(732, 151);
-            this.txt_ghichu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_ghichu.Margin = new System.Windows.Forms.Padding(4);
             this.txt_ghichu.Name = "txt_ghichu";
             this.txt_ghichu.Size = new System.Drawing.Size(251, 34);
             this.txt_ghichu.TabIndex = 10;
@@ -195,7 +195,7 @@ namespace Quanlybanhangluuniem
             this.button1.BackColor = System.Drawing.Color.Silver;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(1179, 18);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(148, 47);
             this.button1.TabIndex = 8;
@@ -211,7 +211,7 @@ namespace Quanlybanhangluuniem
             this.panel2.Controls.Add(this.btn_Them);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 411);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1541, 143);
             this.panel2.TabIndex = 16;
@@ -222,7 +222,7 @@ namespace Quanlybanhangluuniem
             this.btn_Sua.BackColor = System.Drawing.Color.Silver;
             this.btn_Sua.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Sua.Location = new System.Drawing.Point(411, 18);
-            this.btn_Sua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Sua.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Sua.Name = "btn_Sua";
             this.btn_Sua.Size = new System.Drawing.Size(119, 47);
             this.btn_Sua.TabIndex = 5;
@@ -235,7 +235,7 @@ namespace Quanlybanhangluuniem
             this.btn_Them.BackColor = System.Drawing.Color.Silver;
             this.btn_Them.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Them.Location = new System.Drawing.Point(181, 18);
-            this.btn_Them.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Them.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Them.Name = "btn_Them";
             this.btn_Them.Size = new System.Drawing.Size(119, 47);
             this.btn_Them.TabIndex = 4;
@@ -247,7 +247,7 @@ namespace Quanlybanhangluuniem
             // 
             this.txt_tensp.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_tensp.Location = new System.Drawing.Point(243, 101);
-            this.txt_tensp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_tensp.Margin = new System.Windows.Forms.Padding(4);
             this.txt_tensp.Name = "txt_tensp";
             this.txt_tensp.Size = new System.Drawing.Size(251, 34);
             this.txt_tensp.TabIndex = 8;
@@ -256,7 +256,7 @@ namespace Quanlybanhangluuniem
             // 
             this.txt_sp.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_sp.Location = new System.Drawing.Point(243, 50);
-            this.txt_sp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_sp.Margin = new System.Windows.Forms.Padding(4);
             this.txt_sp.Name = "txt_sp";
             this.txt_sp.Size = new System.Drawing.Size(251, 34);
             this.txt_sp.TabIndex = 7;
@@ -327,9 +327,9 @@ namespace Quanlybanhangluuniem
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 129);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(1541, 324);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
@@ -348,7 +348,7 @@ namespace Quanlybanhangluuniem
             "Lốc",
             "Thùng"});
             this.comboBox1.Location = new System.Drawing.Point(243, 159);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(251, 35);
             this.comboBox1.TabIndex = 22;
@@ -383,7 +383,7 @@ namespace Quanlybanhangluuniem
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.panel1.Margin = new System.Windows.Forms.Padding(5);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1541, 129);
             this.panel1.TabIndex = 14;
@@ -397,7 +397,7 @@ namespace Quanlybanhangluuniem
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "F_HangHoa";
             this.Text = "Quản lý sản phẩm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
