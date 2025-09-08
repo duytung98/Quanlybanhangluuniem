@@ -60,7 +60,7 @@ namespace Quanlybanhangluuniem
                     id_matkhau.Text = "";
                 }
             c.disconnect();
-            }
+        }
            
 
         
@@ -79,6 +79,11 @@ namespace Quanlybanhangluuniem
 
                 this.Close();
             }
+        }
+
+        private void id_matkhau_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
     
