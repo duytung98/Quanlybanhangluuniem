@@ -43,7 +43,7 @@ namespace Quanlybanhangluuniem
             frm.MdiParent = this;
             frm.WindowState = FormWindowState.Maximized;
             frm.Show();
-            frm.BringToFront();
+            frm.BringToFront(); 
         }
 
         private void toolStripMenuItem3_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
