@@ -183,7 +183,6 @@ namespace Quanlybanhangluuniem
                         {
                             using (XLWorkbook wb = new XLWorkbook())
                             {
-                                // Tạo 1 sheet
                                 var ws = wb.Worksheets.Add("NhanVien");
 
                                 // Ghi header
@@ -200,6 +199,14 @@ namespace Quanlybanhangluuniem
                                         ws.Cell(i + 2, j + 1).Value = dvg_nhanvien.Rows[i].Cells[j].Value?.ToString();
                                     }
                                 }
+
+                                // Thêm border cho toàn bảng
+                                var range = ws.Range(1, 1, dvg_nhanvien.Rows.Count + 1, dvg_nhanvien.Columns.Count);
+                                range.Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
+                                range.Style.Border.InsideBorder = XLBorderStyleValues.Thin;
+
+                                // Tự động co giãn cột
+                                ws.Columns().AdjustToContents();
 
                                 // Lưu file
                                 wb.SaveAs(sfd.FileName);
