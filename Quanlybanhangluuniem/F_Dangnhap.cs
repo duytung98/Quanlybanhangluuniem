@@ -42,8 +42,8 @@ namespace Quanlybanhangluuniem
                
                 if (id_matkhau.Text == "" || id_taikhoan.Text == "")
                 {
-                    MessageBox.Show("Bạn điền tài khoản và mật khẩu để đăng nhâp", "Thông báo", MessageBoxButtons.OK,
-                        MessageBoxIcon.Question);
+                    MessageBox.Show("Bạn điền tài khoản và mật khẩu để đăng nhâp", "Thông báo",
+                        MessageBoxButtons.OK,MessageBoxIcon.Question);
                 }
                 else if (reader.Read() == true)
                 {
@@ -56,7 +56,8 @@ namespace Quanlybanhangluuniem
                 }
                 else
                 {
-                    MessageBox.Show("Tài khoản hoặc mật khẩu không đúng? Vui lòng nhập lại tài khoản hoặc mật khẩu", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Question);
+                    MessageBox.Show("Tài khoản hoặc mật khẩu không đúng? Vui lòng nhập lại tài khoản hoặc mật khẩu",
+                        "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Question);
                     id_matkhau.Text = "";
                 }
             c.disconnect();

@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.33801.447
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quanlybanhangluuniem", "Quanlybanhangluuniem\Quanlybanhangluuniem.csproj", "{7D99FDB4-3CE0-46BC-A147-01B9EB722785}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup3", "Setup3\Setup3.vdproj", "{CB81DB31-D6EC-4EEF-AF6F-AA14CA4DBEE8}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup4", "Setup4\Setup4.vdproj", "{1F167CD0-B021-40E3-84F9-CD3E3ABCB974}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{7D99FDB4-3CE0-46BC-A147-01B9EB722785}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D99FDB4-3CE0-46BC-A147-01B9EB722785}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D99FDB4-3CE0-46BC-A147-01B9EB722785}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CB81DB31-D6EC-4EEF-AF6F-AA14CA4DBEE8}.Debug|Any CPU.ActiveCfg = Debug
-		{CB81DB31-D6EC-4EEF-AF6F-AA14CA4DBEE8}.Release|Any CPU.ActiveCfg = Release
+		{1F167CD0-B021-40E3-84F9-CD3E3ABCB974}.Debug|Any CPU.ActiveCfg = Debug
+		{1F167CD0-B021-40E3-84F9-CD3E3ABCB974}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

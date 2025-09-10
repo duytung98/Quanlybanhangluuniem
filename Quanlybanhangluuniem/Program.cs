@@ -16,7 +16,7 @@ namespace Quanlybanhangluuniem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new F_main());
+            Application.Run(new F_Dangnhap());
         }
     }
 }

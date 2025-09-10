@@ -109,6 +109,7 @@
     <Compile Include="F_Thongketheonhanvien.Designer.cs">
       <DependentUpon>F_Thongketheonhanvien.cs</DependentUpon>
     </Compile>
+    <Compile Include="KetNoiData.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="F_Dangnhap.resx">
